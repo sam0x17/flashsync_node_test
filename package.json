@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "main": "app.js",
+  "description": "DuroSoft cloud encryption frontend",
+  "dependencies": {
+    "fuse-bindings": "^2.10.1"
+  }
+}
