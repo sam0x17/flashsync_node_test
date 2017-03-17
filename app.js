@@ -1,6 +1,6 @@
   var fuse = require('fuse-bindings')
 
-  var mountPath = process.platform !== 'win32' ? './mnt' : 'X'
+  var mountPath = process.platform !== 'win32' ? './mnt' : 'M:'
 
   fuse.mount(mountPath, {
     options: ['debug'],
