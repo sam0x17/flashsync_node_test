@@ -3,7 +3,7 @@
   var mountPath = process.platform !== 'win32' ? './mnt' : 'M:'
 
   fuse.mount(mountPath, {
-    options: ['debug'],
+    options: ['debug', 'volname=Test Volume'],
     readdir: function (path, cb) {
       path = path.toLowerCase()
       console.log('readdir(%s)', path)
