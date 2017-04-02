@@ -4,6 +4,6 @@
   "main": "app.js",
   "description": "DuroSoft cloud encryption frontend",
   "dependencies": {
-    "fuse-bindings": "file:///C:\\Users\\sam\\Desktop\\fuse-bindings"
+    "fuse-bindings": "github:durosoft/fuse-bindings"
   }
 }
